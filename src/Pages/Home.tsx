@@ -67,7 +67,7 @@ const Home = () => {
               filterdData.map((item, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col p-4 gap-3 hover:bg-gray-100 ${
+                  className={`flex flex-col p-4 gap-3 hover:bg-gray-100 cursor-pointer ${
                     index !== filterdData.length - 1 ? "border-b" : ""
                   }`}
                 >
